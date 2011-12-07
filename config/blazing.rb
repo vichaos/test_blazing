@@ -14,6 +14,7 @@ target :development, 'vbat@127.0.0.1:/home/vbat/git/test_blazing'
 # target :production, 'blazing@production.server.com:/where/your/code/is/shipped/to'
 # target :staging, 'blazing@production.server.com:/where/your/code/is/shipped/to', :default => true, :some_option => 'foo' # note: options defined here will override options defined globally for a recipe
 
+
 #
 # Optional: RVM handling
 #
