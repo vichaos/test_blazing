@@ -34,3 +34,4 @@ rvm '1.9.2@test'
 # Define a rake task that should be run after deployment. The rake task will run after the recipes have run.
 #
 # rake :a_rake_task_to_call_after_deployment
+rake test
