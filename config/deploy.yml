@@ -3,8 +3,7 @@ dev:
   deploy_to: "/home/vbat/git/test_blazing_dev"
   repository: "git@github.com:vichaos/test_blazing.git"
   branch: "master"
-  post_setup_script: "bin/post_setup.sh"
-  post_deploy_script: "bin/post_deploy.sh"
+  post_deploy_script: "bin/post_deploy.rb"
   rake_env:
     RAILS_ENV: 'development'
 
