@@ -3,10 +3,4 @@
 # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
 require File.expand_path('../config/application', __FILE__)
-
-TestBlazing::Application.load_tasks
-
-task :test do
-   puts "Dont test me"
-end
  
